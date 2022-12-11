@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1758
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "North-westCornerMethodCSharp", "North-westCornerMethodCSharp\North-westCornerMethodCSharp.csproj", "{E00549E7-6E90-46A6-A605-892D00C6691C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E00549E7-6E90-46A6-A605-892D00C6691C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E00549E7-6E90-46A6-A605-892D00C6691C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E00549E7-6E90-46A6-A605-892D00C6691C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E00549E7-6E90-46A6-A605-892D00C6691C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42015FCC-F521-48F7-9398-1634FEE51072}
+	EndGlobalSection
+EndGlobal
