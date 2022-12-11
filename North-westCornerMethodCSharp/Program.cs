@@ -9,7 +9,7 @@ namespace North_westCornerMethodCSharp
         static void Main(string[] args)
 
         {
-            List<string> Nwcmethode(int[] supply, int[] demand)
+            List<string> Nwcmethod(int[] supply, int[] demand)
             {
                 
                 int[] supply_copie = supply.Clone() as int[];
@@ -36,7 +36,7 @@ namespace North_westCornerMethodCSharp
                     demand_copie[j] -= v;
 
                    
-                    Lfds.Add("La Cellule (" + i.ToString() +","+ j.ToString() + ")" + " -La valeur x = " + v.ToString());
+                    Lfds.Add("Cell (" + i.ToString() +","+ j.ToString() + ")" + " -Value x = " + v.ToString());
 
                     
                     if (supply_copie[i] == 0 && i < supply.Length - 1)
@@ -51,7 +51,7 @@ namespace North_westCornerMethodCSharp
             int[] Supply = { 40, 20 };
             int[] Demand = { 25, 10, 25 };
 
-            List<string> lfds = Nwcmethode(Supply, Demand);
+            List<string> lfds = Nwcmethod(Supply, Demand);
 
             foreach (string value in lfds)
                 Console.WriteLine(value);
